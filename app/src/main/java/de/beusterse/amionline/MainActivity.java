@@ -19,10 +19,11 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         TextView onlineLabel = (TextView) findViewById(R.id.onlineStatusLabel);
-        onlineLabel.setText(getString(R.string.online_status_offline));
+        onlineLabel.setText(R.string.online_status_offline);
 
+        String[] urls = {"www.google.com"};
         AsyncTask at = new CheckOnlineTask(this, onlineLabel);
-        at.execute("www.google.com");
+        at.execute(urls);
     }
 
     @Override
