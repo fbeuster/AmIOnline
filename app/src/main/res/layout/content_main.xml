@@ -21,4 +21,14 @@
         android:id="@+id/onlineStatusLabel"
         android:textSize="40sp"
         android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/copyright_info"
+        android:id="@+id/copyrightInfo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp" />
 </RelativeLayout>

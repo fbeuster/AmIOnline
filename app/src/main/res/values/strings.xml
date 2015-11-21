@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Am I Online?</string>
     <string name="action_settings">Settings</string>
+    <string name="copyright_info">&#169; Copyright 2015 Felix Beuster</string>
     <string name="online_status_online">Online</string>
     <string name="online_status_offline">Offline</string>
 </resources>
